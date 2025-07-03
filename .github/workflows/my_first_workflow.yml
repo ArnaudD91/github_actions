@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: echo a string
-        run: echo "Hello world"
+        run: echoo "Hello world"
 
       - name: multiline script
         run: |
